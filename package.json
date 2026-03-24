@@ -1,0 +1,19 @@
+{
+    "name": "whatsapp-formulario-sheets",
+    "version": "1.0.0",
+    "description": "Chatbot de WhatsApp que recoge solicitudes de servicio y las guarda en Google Sheets",
+    "main": "src/index.js",
+    "scripts": {
+          "start": "node src/index.js",
+          "dev": "nodemon src/index.js"
+    },
+    "dependencies": {
+          "axios": "^1.7.0",
+          "dotenv": "^16.4.0",
+          "express": "^4.18.0",
+          "googleapis": "^130.0.0"
+    },
+    "devDependencies": {
+          "nodemon": "^3.1.0"
+    }
+}
